@@ -1,0 +1,12 @@
+CREATE DATABASE test;
+
+CREATE TABLE login (
+    usuario VARCHAR(30),
+    correo VARCHAR(30),
+    contra VARCHAR(30)
+);
+
+
+INSERT INTO login (usuario, correo, contra)
+VALUES ('nilton', 'nilton@beltran.com', 'nilton');
+
